@@ -1,0 +1,15 @@
+
+
+<div *ngIf="gameState=='Start'">
+  <app-start (isStartClicked)="setGameState('Register')" ></app-start>
+</div>
+<div *ngIf="gameState=='Register'">
+  <app-register (isRegisterClicked)="startGame($event)"></app-register>
+</div>
+<div *ngIf="gameState=='Questions'">
+    <app-questions [gid]="gid" (isQuestionClicked)="setGameState('Finish')"></app-questions>
+</div>
+<div *ngIf="gameState=='Finish'">
+  <app-finish [gid]="gid"></app-finish> 
+</div>
+

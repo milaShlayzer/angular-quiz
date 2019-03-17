@@ -1,0 +1,27 @@
+.start-game-btn
+{
+    width: 600px;
+    height: 200px;
+    background-color: var(--yellow);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 25px;
+    border: 2px solid black;
+    font-weight: 900;
+    font-size:3em;
+
+}
+
+.start-game-btn:hover
+{
+    background-color: rgb(233, 233, 113);
+}
+
+
+.start-game-btn:active
+{
+    background-color: rgb(131, 131, 2);
+}
+

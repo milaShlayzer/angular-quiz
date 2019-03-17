@@ -1,0 +1,20 @@
+<div class=" container comp-rap">
+  <div class="row  btn-rap justify-content-center">
+    <div class="col-5 title "> Please enter your details: </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-3 input-text">name:</div>
+    <div class="col-2"> <input type="text" [(ngModel)]="name"></div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-3 input-text">last name:</div>
+    <div class="col-2"> <input type="text" [(ngModel)]="lastName"></div>
+  </div>
+
+  <div class="row btn-rap">
+    <div class="col-12"><button class="submit-btn btn btn-warning" input=button
+        (click)="registerClicked($event)">Start</button></div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+
+<div class="container ">
+  <div class="row  btn-rap justify-content-center"> 
+    <label class="question" input="text" >{{questions?.question}}</label>
+    </div>
+
+  <div  *ngFor="let answer of questions?.answers; index as i" class="row  btn-rap justify-content-center">
+    <button class="answer-btn col-6 btn btn-outline-success" input=button (click)="answerquestionClicked(i)">{{answer}}</button>
+  </div>
+  
+  </div>
+  
+
+

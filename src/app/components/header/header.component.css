@@ -1,0 +1,12 @@
+.main-header {
+    text-align: center;
+    background:var(--yellow);
+    color: black;
+    border: 3px solid black;
+    letter-spacing: 3px;
+    font-weight: 900;
+  }
+  
+  .bee-img{
+      width: 4em;
+  }
